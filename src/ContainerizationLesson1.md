@@ -38,4 +38,4 @@
       если её не передать запустится /bin/sh
 * sudo unshare --net --pid --fork --mount-proc /bin/bash
 ![picture](images/Comtain7.png)
-![picture](images/Contain6.png)
+![picture](images/contain6.png)

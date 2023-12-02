@@ -47,5 +47,10 @@
   Как видно на скриншоте, в файловой системе контейнера появилась новая директория.
 
 теперь мы можем работать с этой директорией изнутри контейнера, например создадим там файл и проверим, что мы можем его увидеть из хостовой системы
-
+ Запускаем mariaDb
+ 
+ - docker network creat my_network
+- docker run -d --name db --network my_network -e MYSQL_ROOT_PASSWORD=13254689 mariadb:10.8
+- docker run -d --name myadmin --network my_network -e PMA_HOST=db -p 9000:80 phpmyadmin
+  ![picture2](images/MySQL.png)
 ### Студент GeekBrains Черняков Дмитрий урок 3 семинар

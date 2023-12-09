@@ -148,3 +148,6 @@
 ![picture11](images/DockerNode9.png)
 
 ![picture12](images/DockerNode10.png)
+
+
+### Студент GeekBrains Черняков Дмитрий урок 5 семинар
